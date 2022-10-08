@@ -1,0 +1,5 @@
+<!--pages/Home/Home.wxml-->
+<text>pages/Home/Home.wxml</text>
+<button bindtap="setNum">1233</button>
+{{num}}
+

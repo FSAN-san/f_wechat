@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/Login/Login",
+    "pages/Home/Home"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "f_wechat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#888",
+    "list": [
+      {
+        "pagePath": "pages/Login/Login",
+        "text": "欢迎页",
+        "iconPath": "./assets/home.png",
+        "selectedIconPath": "./assets/home-selected.png"
+      },
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "首页",
+        "iconPath": "./assets/home.png",
+        "selectedIconPath": "./assets/home-selected.png"
+      }
+    ]
+  }
+}
